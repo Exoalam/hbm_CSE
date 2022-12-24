@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		614077C6291FC58D00615AA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614077C5291FC58D00615AA7 /* AppDelegate.swift */; };
+		614077C8291FC58D00615AA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614077C7291FC58D00615AA7 /* SceneDelegate.swift */; };
+		614077CA291FC58D00615AA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614077C9291FC58D00615AA7 /* ViewController.swift */; };
+		614077CD291FC58D00615AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614077CB291FC58D00615AA7 /* Main.storyboard */; };
+		614077CF291FC58F00615AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614077CE291FC58F00615AA7 /* Assets.xcassets */; };
+		614077D2291FC58F00615AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614077D0291FC58F00615AA7 /* LaunchScreen.storyboard */; };
+		614077DD291FC58F00615AA7 /* Hospital_Bed_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614077DC291FC58F00615AA7 /* Hospital_Bed_ManagementTests.swift */; };
+		614077E7291FC58F00615AA7 /* Hospital_Bed_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614077E6291FC58F00615AA7 /* Hospital_Bed_ManagementUITests.swift */; };
+		614077E9291FC58F00615AA7 /* Hospital_Bed_ManagementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614077E8291FC58F00615AA7 /* Hospital_Bed_ManagementUITestsLaunchTests.swift */; };
+		614077F6291FC66100615AA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 614077F5291FC66100615AA7 /* GoogleService-Info.plist */; };
+		614077F9291FC70800615AA7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 614077F8291FC70800615AA7 /* FirebaseAuth */; };
+		614077FB291FC70800615AA7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 614077FA291FC70800615AA7 /* FirebaseDatabase */; };
+		614077FD291FC70800615AA7 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 614077FC291FC70800615AA7 /* FirebaseDatabaseSwift */; };
+		614077FF291FC70800615AA7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 614077FE291FC70800615AA7 /* FirebaseFirestore */; };
+		61407801291FC70800615AA7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 61407800291FC70800615AA7 /* FirebaseStorage */; };
+		61407803291FD2FF00615AA7 /* SplashScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61407802291FD2FF00615AA7 /* SplashScreenController.swift */; };
+		61407805291FD76A00615AA7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61407804291FD76A00615AA7 /* LoginViewController.swift */; };
+		61407807291FD7A900615AA7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61407806291FD7A900615AA7 /* SignUpViewController.swift */; };
+		615AE8A8292122AD0077E710 /* FinderHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615AE8A7292122AD0077E710 /* FinderHomeTableViewCell.swift */; };
+		615AE8AA292133B90077E710 /* ProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615AE8A9292133B90077E710 /* ProviderViewController.swift */; };
+		615AE8AF292170EA0077E710 /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615AE8AE292170EA0077E710 /* FinderViewController.swift */; };
+		6447067029562DF9006DFDCC /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6447066F29562DF9006DFDCC /* tableViewController.swift */; };
+		6447067A295635ED006DFDCC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64470679295635ED006DFDCC /* CustomTableViewCell.swift */; };
+		6447067C29563996006DFDCC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6447067B29563996006DFDCC /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		614077D9291FC58F00615AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614077BA291FC58D00615AA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614077C1291FC58D00615AA7;
+			remoteInfo = "Hospital Bed Management";
+		};
+		614077E3291FC58F00615AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614077BA291FC58D00615AA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614077C1291FC58D00615AA7;
+			remoteInfo = "Hospital Bed Management";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		614077C2291FC58D00615AA7 /* Hospital Bed Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospital Bed Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614077C5291FC58D00615AA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		614077C7291FC58D00615AA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		614077C9291FC58D00615AA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		614077CC291FC58D00615AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		614077CE291FC58F00615AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614077D1291FC58F00615AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		614077D3291FC58F00615AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614077D8291FC58F00615AA7 /* Hospital Bed ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hospital Bed ManagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614077DC291FC58F00615AA7 /* Hospital_Bed_ManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital_Bed_ManagementTests.swift; sourceTree = "<group>"; };
+		614077E2291FC58F00615AA7 /* Hospital Bed ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hospital Bed ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614077E6291FC58F00615AA7 /* Hospital_Bed_ManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital_Bed_ManagementUITests.swift; sourceTree = "<group>"; };
+		614077E8291FC58F00615AA7 /* Hospital_Bed_ManagementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital_Bed_ManagementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		614077F5291FC66100615AA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		61407802291FD2FF00615AA7 /* SplashScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenController.swift; sourceTree = "<group>"; };
+		61407804291FD76A00615AA7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		61407806291FD7A900615AA7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		615AE8A7292122AD0077E710 /* FinderHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderHomeTableViewCell.swift; sourceTree = "<group>"; };
+		615AE8A9292133B90077E710 /* ProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderViewController.swift; sourceTree = "<group>"; };
+		615AE8AE292170EA0077E710 /* FinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
+		6447066F29562DF9006DFDCC /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
+		64470679295635ED006DFDCC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		6447067B29563996006DFDCC /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		614077BF291FC58D00615AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614077FD291FC70800615AA7 /* FirebaseDatabaseSwift in Frameworks */,
+				614077FF291FC70800615AA7 /* FirebaseFirestore in Frameworks */,
+				614077FB291FC70800615AA7 /* FirebaseDatabase in Frameworks */,
+				61407801291FC70800615AA7 /* FirebaseStorage in Frameworks */,
+				614077F9291FC70800615AA7 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614077D5291FC58F00615AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614077DF291FC58F00615AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		614077B9291FC58D00615AA7 = {
+			isa = PBXGroup;
+			children = (
+				614077C4291FC58D00615AA7 /* Hospital Bed Management */,
+				614077DB291FC58F00615AA7 /* Hospital Bed ManagementTests */,
+				614077E5291FC58F00615AA7 /* Hospital Bed ManagementUITests */,
+				614077C3291FC58D00615AA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		614077C3291FC58D00615AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				614077C2291FC58D00615AA7 /* Hospital Bed Management.app */,
+				614077D8291FC58F00615AA7 /* Hospital Bed ManagementTests.xctest */,
+				614077E2291FC58F00615AA7 /* Hospital Bed ManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		614077C4291FC58D00615AA7 /* Hospital Bed Management */ = {
+			isa = PBXGroup;
+			children = (
+				61407802291FD2FF00615AA7 /* SplashScreenController.swift */,
+				614077F5291FC66100615AA7 /* GoogleService-Info.plist */,
+				614077C5291FC58D00615AA7 /* AppDelegate.swift */,
+				614077C7291FC58D00615AA7 /* SceneDelegate.swift */,
+				614077C9291FC58D00615AA7 /* ViewController.swift */,
+				614077CB291FC58D00615AA7 /* Main.storyboard */,
+				61407806291FD7A900615AA7 /* SignUpViewController.swift */,
+				61407804291FD76A00615AA7 /* LoginViewController.swift */,
+				614077CE291FC58F00615AA7 /* Assets.xcassets */,
+				614077D0291FC58F00615AA7 /* LaunchScreen.storyboard */,
+				614077D3291FC58F00615AA7 /* Info.plist */,
+				615AE8A7292122AD0077E710 /* FinderHomeTableViewCell.swift */,
+				615AE8A9292133B90077E710 /* ProviderViewController.swift */,
+				615AE8AE292170EA0077E710 /* FinderViewController.swift */,
+				6447066F29562DF9006DFDCC /* tableViewController.swift */,
+				64470679295635ED006DFDCC /* CustomTableViewCell.swift */,
+				6447067B29563996006DFDCC /* DetailsViewController.swift */,
+			);
+			path = "Hospital Bed Management";
+			sourceTree = "<group>";
+		};
+		614077DB291FC58F00615AA7 /* Hospital Bed ManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				614077DC291FC58F00615AA7 /* Hospital_Bed_ManagementTests.swift */,
+			);
+			path = "Hospital Bed ManagementTests";
+			sourceTree = "<group>";
+		};
+		614077E5291FC58F00615AA7 /* Hospital Bed ManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				614077E6291FC58F00615AA7 /* Hospital_Bed_ManagementUITests.swift */,
+				614077E8291FC58F00615AA7 /* Hospital_Bed_ManagementUITestsLaunchTests.swift */,
+			);
+			path = "Hospital Bed ManagementUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		614077C1291FC58D00615AA7 /* Hospital Bed Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614077EC291FC58F00615AA7 /* Build configuration list for PBXNativeTarget "Hospital Bed Management" */;
+			buildPhases = (
+				614077BE291FC58D00615AA7 /* Sources */,
+				614077BF291FC58D00615AA7 /* Frameworks */,
+				614077C0291FC58D00615AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hospital Bed Management";
+			packageProductDependencies = (
+				614077F8291FC70800615AA7 /* FirebaseAuth */,
+				614077FA291FC70800615AA7 /* FirebaseDatabase */,
+				614077FC291FC70800615AA7 /* FirebaseDatabaseSwift */,
+				614077FE291FC70800615AA7 /* FirebaseFirestore */,
+				61407800291FC70800615AA7 /* FirebaseStorage */,
+			);
+			productName = "Hospital Bed Management";
+			productReference = 614077C2291FC58D00615AA7 /* Hospital Bed Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+		614077D7291FC58F00615AA7 /* Hospital Bed ManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614077EF291FC58F00615AA7 /* Build configuration list for PBXNativeTarget "Hospital Bed ManagementTests" */;
+			buildPhases = (
+				614077D4291FC58F00615AA7 /* Sources */,
+				614077D5291FC58F00615AA7 /* Frameworks */,
+				614077D6291FC58F00615AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614077DA291FC58F00615AA7 /* PBXTargetDependency */,
+			);
+			name = "Hospital Bed ManagementTests";
+			productName = "Hospital Bed ManagementTests";
+			productReference = 614077D8291FC58F00615AA7 /* Hospital Bed ManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		614077E1291FC58F00615AA7 /* Hospital Bed ManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614077F2291FC58F00615AA7 /* Build configuration list for PBXNativeTarget "Hospital Bed ManagementUITests" */;
+			buildPhases = (
+				614077DE291FC58F00615AA7 /* Sources */,
+				614077DF291FC58F00615AA7 /* Frameworks */,
+				614077E0291FC58F00615AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614077E4291FC58F00615AA7 /* PBXTargetDependency */,
+			);
+			name = "Hospital Bed ManagementUITests";
+			productName = "Hospital Bed ManagementUITests";
+			productReference = 614077E2291FC58F00615AA7 /* Hospital Bed ManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		614077BA291FC58D00615AA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					614077C1291FC58D00615AA7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					614077D7291FC58F00615AA7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 614077C1291FC58D00615AA7;
+					};
+					614077E1291FC58F00615AA7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 614077C1291FC58D00615AA7;
+					};
+				};
+			};
+			buildConfigurationList = 614077BD291FC58D00615AA7 /* Build configuration list for PBXProject "Hospital Bed Management" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 614077B9291FC58D00615AA7;
+			packageReferences = (
+				614077F7291FC70800615AA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 614077C3291FC58D00615AA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				614077C1291FC58D00615AA7 /* Hospital Bed Management */,
+				614077D7291FC58F00615AA7 /* Hospital Bed ManagementTests */,
+				614077E1291FC58F00615AA7 /* Hospital Bed ManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		614077C0291FC58D00615AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614077D2291FC58F00615AA7 /* LaunchScreen.storyboard in Resources */,
+				614077F6291FC66100615AA7 /* GoogleService-Info.plist in Resources */,
+				614077CF291FC58F00615AA7 /* Assets.xcassets in Resources */,
+				614077CD291FC58D00615AA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614077D6291FC58F00615AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614077E0291FC58F00615AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614077BE291FC58D00615AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61407807291FD7A900615AA7 /* SignUpViewController.swift in Sources */,
+				614077CA291FC58D00615AA7 /* ViewController.swift in Sources */,
+				614077C6291FC58D00615AA7 /* AppDelegate.swift in Sources */,
+				615AE8A8292122AD0077E710 /* FinderHomeTableViewCell.swift in Sources */,
+				61407803291FD2FF00615AA7 /* SplashScreenController.swift in Sources */,
+				6447067A295635ED006DFDCC /* CustomTableViewCell.swift in Sources */,
+				615AE8AA292133B90077E710 /* ProviderViewController.swift in Sources */,
+				61407805291FD76A00615AA7 /* LoginViewController.swift in Sources */,
+				615AE8AF292170EA0077E710 /* FinderViewController.swift in Sources */,
+				614077C8291FC58D00615AA7 /* SceneDelegate.swift in Sources */,
+				6447067029562DF9006DFDCC /* tableViewController.swift in Sources */,
+				6447067C29563996006DFDCC /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614077D4291FC58F00615AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614077DD291FC58F00615AA7 /* Hospital_Bed_ManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614077DE291FC58F00615AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614077E7291FC58F00615AA7 /* Hospital_Bed_ManagementUITests.swift in Sources */,
+				614077E9291FC58F00615AA7 /* Hospital_Bed_ManagementUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		614077DA291FC58F00615AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614077C1291FC58D00615AA7 /* Hospital Bed Management */;
+			targetProxy = 614077D9291FC58F00615AA7 /* PBXContainerItemProxy */;
+		};
+		614077E4291FC58F00615AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614077C1291FC58D00615AA7 /* Hospital Bed Management */;
+			targetProxy = 614077E3291FC58F00615AA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		614077CB291FC58D00615AA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614077CC291FC58D00615AA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		614077D0291FC58F00615AA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614077D1291FC58F00615AA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		614077EA291FC58F00615AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		614077EB291FC58F00615AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		614077ED291FC58F00615AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CX7WN9Q4HU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hospital Bed Management/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KUET.Hospital-Bed-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		614077EE291FC58F00615AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CX7WN9Q4HU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hospital Bed Management/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KUET.Hospital-Bed-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		614077F0291FC58F00615AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KUET.Hospital-Bed-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hospital Bed Management.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hospital Bed Management";
+			};
+			name = Debug;
+		};
+		614077F1291FC58F00615AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CX7WN9Q4HU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KUET.Hospital-Bed-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hospital Bed Management.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hospital Bed Management";
+			};
+			name = Release;
+		};
+		614077F3291FC58F00615AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KUET.Hospital-Bed-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hospital Bed Management";
+			};
+			name = Debug;
+		};
+		614077F4291FC58F00615AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CX7WN9Q4HU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KUET.Hospital-Bed-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hospital Bed Management";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		614077BD291FC58D00615AA7 /* Build configuration list for PBXProject "Hospital Bed Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614077EA291FC58F00615AA7 /* Debug */,
+				614077EB291FC58F00615AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614077EC291FC58F00615AA7 /* Build configuration list for PBXNativeTarget "Hospital Bed Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614077ED291FC58F00615AA7 /* Debug */,
+				614077EE291FC58F00615AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614077EF291FC58F00615AA7 /* Build configuration list for PBXNativeTarget "Hospital Bed ManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614077F0291FC58F00615AA7 /* Debug */,
+				614077F1291FC58F00615AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614077F2291FC58F00615AA7 /* Build configuration list for PBXNativeTarget "Hospital Bed ManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614077F3291FC58F00615AA7 /* Debug */,
+				614077F4291FC58F00615AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		614077F7291FC70800615AA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		614077F8291FC70800615AA7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 614077F7291FC70800615AA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		614077FA291FC70800615AA7 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 614077F7291FC70800615AA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		614077FC291FC70800615AA7 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 614077F7291FC70800615AA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		614077FE291FC70800615AA7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 614077F7291FC70800615AA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		61407800291FC70800615AA7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 614077F7291FC70800615AA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 614077BA291FC58D00615AA7 /* Project object */;
+}
